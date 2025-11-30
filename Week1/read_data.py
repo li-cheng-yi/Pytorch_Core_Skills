@@ -21,4 +21,6 @@ bees_label_dir="bees_image"
 ants_dataset=MyData(root_dir,ants_label_dir)
 bees_dataset=MyData(root_dir,bees_label_dir)
 train_dataset=ants_dataset+bees_dataset
+data=MyData(root_dir,ants_label_dir)
+print(data[0])
 
