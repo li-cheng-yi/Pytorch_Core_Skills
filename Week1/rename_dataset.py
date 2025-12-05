@@ -1,5 +1,5 @@
 import os
-root_dir = '../dataset/train'
+root_dir = '../Week1/dataset/train'
 target_dir = 'ants_image'
 img_path = os.listdir(os.path.join(root_dir, target_dir))
 label = target_dir.split('_')[0]

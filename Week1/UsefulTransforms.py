@@ -2,7 +2,7 @@ from PIL import Image
 from torch.utils.tensorboard import SummaryWriter
 from torchvision import transforms
 writer=SummaryWriter("logs")
-img=Image.open("../image/R-C.jpg")
+img=Image.open("../Week1/image/R-C.jpg")
 print(img)
 #ToTensor
 trans_totensor=transforms.ToTensor()
